@@ -202,6 +202,7 @@ header{
 
 footer{
     position: relative;
+    margin-top: 500px;
     background-color: rgb(12,12,12);
     opacity: 0.9;
     height: 230px;
@@ -224,20 +225,71 @@ hr{
     text-align: right;
 }
 
-.para{
-    background-color: black;
-    width: 300px;
-    height: 1000px;
-    margin-left: 10vw; 
-    color: whitesmoke;
+.big-block{
+    height: 35vh;
+margin-left: 20vw;
+margin-top: 10vh;
+margin-right: 25vw;
+background-color: white;
+
+color: black;
 }
-.bilet{
-    background-color: white;
-    margin-left: 30vw;
-    color: black;
-    font-size: 25px;
-    width: 57vw;
+
+.textbil{
+    width: 100%;
+    font-size: 3vh;
+    font-size: 1.5vw;
 }
+.textall{
+    float: right;
+    margin-right: 3vw;
+    font-size: 3vh;
+    font-size: 1.5vw;
+}
+
+.photo-mesto{
+    
+    height: 14vh;
+
+}
+.vech{
+    height: 28vh;
+    width: 10vw;
+}
+.text-mesto1{
+    margin-top: 14vh;
+    font-size: 2vh;
+    font-size: 1vw;
+}
+.otst1{
+margin-top: 0vh;
+}
+
+.kosh-text{
+    margin-left: 7vw;
+}
+.kosh-abz{
+    margin-left: 4vw;
+}
+.venom-text{
+    margin-left: 3.2vw;
+}
+.venom-abz{
+    margin-left: 2.8vw;
+}
+.ron-text{
+    margin-left: 7vw;
+}
+.ron-abz{
+    margin-left: 3.5vw;
+}
+.dun-text{
+    margin-left: 3vw;
+}
+.dun-abz{
+    margin-left: 3.3vw;
+}
+
 
 .all bilet{
     text-align: right;
@@ -514,3 +566,5 @@ hr{
     word-spacing:normal;
     
 }
+
+
