@@ -226,9 +226,14 @@ hr{
 
 .GG-center{
     margin: auto;
+    color: grey;
 }
 .GG-right{
     text-align: right;
+    color: grey;
+}
+.GG-left{
+    color: grey;
 }
 .icons{
         letter-spacing: 50px;
