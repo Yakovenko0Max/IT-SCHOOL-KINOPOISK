@@ -1,23 +1,28 @@
+body{
+    margin: 0;
+}
 header{
-    background-color: rgb(12,12,12);
-    opacity: 0.9;
+    position: sticky;
+    z-index: 1;
+    top: 0px;
+    background-color: rgb(26, 25, 25);
     height: 80px;
+    width: 100%;
     color: whitesmoke;
     font-family: Geneva, Tahoma, sans-serif;
-
 }
 
 
 .Kino{
     position: absolute;
     left: 130px;
-    top: 25px;
+    top: 20px;
     font-size: xx-large;
 }
 
 .console{
  position: relative ;
-    top: 25px;
+    top: 20px;
     left: 160px;
     height: 40px;
     opacity: 0;
@@ -26,7 +31,7 @@ header{
 
 .search{
     position: fixed;
-    top: 28px;
+    top: 23px;
     right: 350px;
     left: 770px;
     width: 330px;
@@ -36,7 +41,7 @@ header{
 
 .nayti{
     position: fixed;
-    top: 39px;
+    top: 34px;
     left: 1050px;
 }
 
@@ -44,7 +49,7 @@ header{
     position: fixed;
     right: 870px;
     left: 350px;
-    top: 39px;
+    top: 34px;
     color: gray;
     background-color: Transparent;
     background-repeat:no-repeat;
@@ -59,7 +64,7 @@ header{
     position: fixed;
     right: 600px;
     left: 550px;
-    top: 40px;
+    top: 35px;
     color: gray;
     background-color: Transparent;
     background-repeat:no-repeat;
@@ -84,7 +89,7 @@ header{
 .start{
     position: fixed;
 
-    top: 24px;
+    top: 19px;
     background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
@@ -99,13 +104,13 @@ header{
 .play{
     position: fixed;
     left: 330px;
-    top: 37px;
+    top: 32px;
 }
 
 .playbut{
     position: fixed;
     left: 330px;
-    top: 33px;
+    top: 28px;
     height: 27px;   
     width: 25px;
     background-color: Transparent;
@@ -119,13 +124,13 @@ header{
 .pc{
     position: fixed;
     left: 520px;
-    top: 36px;
+    top: 31px;
 }
 
 .pcbut{
     position: fixed;
     left: 520px;
-    top: 30px;
+    top: 25px;
     height: 30px;
     width: 30px;
     background-color: Transparent;
@@ -137,7 +142,7 @@ header{
 
 .log{
     position: fixed;
-    top: 35px;
+    top: 30px;
     left: 1300px;
     right: 10px;
 
@@ -147,19 +152,19 @@ header{
 .chi{
     position: fixed;
     left: 1250px;
-    top: 35px;
+    top: 30px;
 }
 .bookmark{
     position: fixed;
     left: 1211px;
-    top: 35px;
+    top: 30px;
 }
 
 .zakl1{
     position: absolute;
     height: 23px;
     width: 15px;
-    top: 35px;
+    top: 30px;
     left: 1218px;
     background-color: Transparent;
     background-repeat:no-repeat;
@@ -175,7 +180,7 @@ header{
     height: 25px;
     width: 40px;
     left: 1245px;
-    top: 35px;
+    top: 30px;
     background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
@@ -190,7 +195,7 @@ header{
     height: 25px;
     width: 25px;
     left: 1298px;
-    top: 35px;
+    top: 30px;
     background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
@@ -202,14 +207,16 @@ header{
 
 footer{
     position: relative;
-    background-color: rgb(12,12,12);
+    background-color: rgb(0, 0, 0);
     opacity: 0.9;
     height: 230px;
-    width: 1200px;
+    width: 85vw;
 }
 
 .under{
+    color: rgb(122, 122, 122);
     font-size: 18px;
+    word-spacing: 25px;
 }
 hr{
     background-color:rgb(12,12,12) ;
@@ -219,7 +226,61 @@ hr{
 
 .GG-center{
     margin: auto;
+    color: grey;
 }
 .GG-right{
     text-align: right;
+    color: grey;
+}
+.GG-left{
+    color: grey;
+}
+.icons{
+        letter-spacing: 50px;
+}
+.menu{
+    position: sticky;
+    top: 0;
+    width: 200px;
+    line-height: 2.5;
+    margin-left: 7.5vw;
+    margin-top: 200px;
+    padding-top: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btnMenu{
+    color: gray;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+    opacity: 1;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.btnMenu:hover{
+    opacity: 0.6;
+}
+
+.content{
+    height: 3000px;
+}
+.leftbox{
+    position: sticky;
+    top: 80px;
+    float: left;
+    margin: 0;
+    width: 7vw;
+    height: 100vh;
+    background-color: rgb(241, 241, 241);
+}
+.rightbox{
+    position: sticky;
+    top: 80px;
+    float: right;
+    margin: 0;
+    width: 7vw;
+    height: 100vh;
+    background-color: rgb(241, 241, 241);
 }
