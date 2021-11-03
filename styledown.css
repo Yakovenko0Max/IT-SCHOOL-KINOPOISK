@@ -244,7 +244,6 @@ hr{
     width: 200px;
     line-height: 2.5;
     margin-left: 7.5vw;
-    margin-top: 200px;
     padding-top: 90px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -261,10 +260,6 @@ hr{
 }
 .btnMenu:hover{
     opacity: 0.6;
-}
-
-.content{
-    height: 3000px;
 }
 .leftbox{
     position: sticky;
@@ -283,4 +278,205 @@ hr{
     width: 7vw;
     height: 100vh;
     background-color: rgb(241, 241, 241);
+}
+.content{
+    height: 45vh;
+    background-color: black;
+    border-radius: 10px 40px 40px 10px;
+    margin-right: 10vw;
+    margin-left: 25vw;
+}
+.pic1{
+    height: 45vh;
+    float: right;
+    width: 44vw;
+    border-radius: 40px;
+}
+.btn{
+    margin-top: 35vh ;
+    font-size: 2vh;
+     margin-left: 2vw;
+     background-color: darkorange;
+     color: whitesmoke;
+     border-radius: 5px 5px 5px 5px;
+     font-family: Geneva, Tahoma, sans-serif;
+}
+.btn2{
+    font-size: 2vh;
+    margin-left: 0.5vw;
+    position: absolute;
+    margin-top: 35vh;
+    background-color:rgb(39,39,39);
+    opacity: 0.4;
+    color: whitesmoke;
+    border-radius: 5px 5px 5px 5px;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+.pic1name{
+    position: absolute;
+    margin-top: 5vh;
+    font-size: 3vh;
+    margin-left: 3vw;
+   
+    color: darkorange;
+}
+.pic1clov{
+    font-size: 1vw;
+    color: whitesmoke;
+    position: absolute;
+    margin-top: 15vh;
+    margin-left: 1vw;
+    width: 16vw;
+}
+.big-block{
+    height: 35vh;
+
+margin-top: 5vh;
+
+background-color: white;
+margin-right: 10vw;
+    margin-left: 25vw;
+
+color: black;
+}
+
+.textbil{
+    width: 100%;
+    font-size: 3vh;
+    font-size: 1.5vw;
+}
+.textall{
+    float: right;
+    margin-right: 3vw;
+    font-size: 3vh;
+    font-size: 1.5vw;
+}
+
+.photo-mesto{
+    
+    height: 14vh;
+
+}
+.vech{
+    height: 24vh;
+    width: 10vw;
+    border-radius: 7px;
+}
+.text-mesto1{
+    margin-top: 10vh;
+    font-size: 2vh;
+    font-size: 1vw;
+}
+.otst1{
+margin-top: 0vh;
+}
+
+.kosh-text{
+    margin-left: 7vw;
+}
+.kosh-abz{
+    margin-left: 4vw;
+}
+.venom-text{
+    margin-left: 3.2vw;
+}
+.venom-abz{
+    margin-left: 2.8vw;
+}
+.ron-text{
+    margin-left: 7vw;
+}
+.ron-abz{
+    margin-left: 3.5vw;
+}
+.dun-text{
+    margin-left: 3vw;
+}
+.dun-abz{
+    margin-left: 3.3vw;
+}
+.hel{
+margin-left: 7.4vw;
+}
+.hel-abz{
+margin-left: 1vw;
+}
+.vybor{
+    font-size: 3vh;
+    font-size: 1.5vw;
+    margin-right: 7vw;
+    margin-left: 25vw;
+    width: 68vw;
+}
+.n{
+    height: 24.7vh;
+}
+
+.image-flex3 {
+    height: 140vh;
+    margin-top: 2vh;
+    margin-left: 25vw;
+    background-color: rgb(20,20,20);
+    
+  }
+  
+  
+  .ykral{
+      margin-top: 4vh;
+    margin-left: 20vw;
+    margin-right: 20.7vw;
+  }
+  .p1pic{
+      margin-top: 1.5vh;
+      width: 68vw;
+  }
+  .text-vibor{
+    margin-left: 4vw;
+        font-size: 3vh;
+        margin-top: vh;
+        color: whitesmoke;
+  }
+  .photofilm{
+    margin-left: 1vw;
+        margin-right: 7vw;
+        margin-top: 3vh;
+  }
+  .pgotoser{
+    height: 25vh;
+    width: 15vw;
+  }
+  
+  .spizdil{
+    margin-top: 5vh;
+        margin-left: 10vw;
+        margin-right: 12.2vw;
+  }
+  
+
+
+
+
+
+  .image-flex7 {
+    margin-right: 7vw;
+    margin-left: 25vw;
+}
+.box {
+    display: flex;
+    align-items:baseline;
+    justify-content: center;
+    margin-left: 25vw;
+    margin-right: 7vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    flex-wrap: nowrap;
+    align-content:flex-start;
+    position: sticky;
+    width: auto;
+    height: fit-content;
+    border-left: 70px;
+}
+.buttn{
+    width: 26vw;
+    height: 3vh;
 }
